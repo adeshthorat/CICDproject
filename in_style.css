@@ -1,7 +1,7 @@
 /* CSS File for index.html */
 body{
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
-    /*background-image: url(Wall_collage.jpg);*/
+    background-image: url(Wall_collage.jpg);
     background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
