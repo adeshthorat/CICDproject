@@ -4,7 +4,7 @@
 FROM nginx:latest
 
 # Optional: Replace default NGINX configuration with your custom configuration
-COPY . /usr/share/nginx/html
+COPY . /var/www/html/
 
 # Optional: Add any additional static files or assets required by your application
 # COPY static_files /path/to/nginx/static_files
