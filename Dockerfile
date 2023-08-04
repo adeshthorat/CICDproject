@@ -1,4 +1,4 @@
-#FROM nginx:latest
+#FROM nginx
 #COPY . /usr/share/nginx/html
 #Use the official NGINX base image from Docker Hub
 FROM nginx
