@@ -1,0 +1,113 @@
+/* CSS File for front.html */
+body {
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: rgba(238, 249, 246, 0.897);
+}
+h1{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.4;
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;;
+    margin-left: 2cm;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+main {
+	margin: 20px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+}
+
+.image {
+	position: relative;
+}
+
+.image img {
+	width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.image:hover .overlay {
+	opacity: 1;
+}
+
+a {
+	color: #fff;
+	font-size: 1.5em;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 20px;
+	text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #06302c70;
+    color: #200303;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #fdfdfdba;
+  }
+  .header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    padding-left: 450px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 200;
+}
