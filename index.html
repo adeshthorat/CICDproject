@@ -1,40 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-div {
-    text-align: center;
-}
-body{
-    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    overflow: hidden; /* Hide scrollbars */
-    background-color: rgb(108, 124, 183);
-  }
-
-h2{
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 1.4;
-    margin-left: 2cm;
-    font-family: cursive;
-}
-h1{
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 1.4;
-    margin-left: 2cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-</style>
-</head>
-<body>
-<h2>Test Game Server</h2>
-<h1>Running on port 8080 /var/www/game</h1>
-<h1>You Have Succefully Configured Git - jenkins</h1>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no, minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="full-screen" content="yes" />
+		<meta name="screen-orientation" content="portrait" />
+    <title>Infinite Cars</title>
+    <link rel="stylesheet" href="./styles/infinite-cars.css" />
+    <script>
+			console.clear();
+		</script>
+    <h1>My game</h1>
+  </head>
+  <body>
+    <script src="./scripts/libs/phaser.min.js"></script>
+    <script type="module" src="./scripts/infinite-cars.processed.js"></script>
+  </body>
 </html>
