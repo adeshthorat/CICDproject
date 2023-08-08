@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "Luckiest Guy";
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	src: url("../assets/fonts/LuckiestGuy-Regular.ttf") format("woff2");
 }
 
@@ -8,14 +8,19 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 h1{
-	font-family: "Luckiest Guy", cursive;
-	background-color: rgb(253, 253, 253)
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:200%;
+	color: rgb(30, 0, 22);
+	
 }
 body {
 	font-family: "Luckiest Guy", cursive;
-	background-color: #000000;
+	background-color: rgba(217, 244, 248, 0.839);
 }
 
 canvas {
