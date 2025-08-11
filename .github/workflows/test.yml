@@ -8,8 +8,8 @@ jobs:
     steps:
       - name: "Store output in runner"
         run: |
-          sudo mkdir -p /app
-          sudo echo "This is test" >> /app/test.txt
+          mkdir -p app
+          sudo echo "This is test" >> app/test.txt
       - name: "Upload test.txt"
         uses: actions/upload-artifact@v4
         with:
