@@ -1,0 +1,17 @@
+#this workflow will generate output in runner echo "test ha ye ">test.txt and store it in git repo
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Store output in runner"
+        run: |
+          mkdir -p /app
+          echo "This is test" >> /app/test.txt
+      - name: "Upload test.txt"
+        uses: actions/upload-artifact@v2
+        with:
+          name: test.txt
+          path: /app/test.txt
