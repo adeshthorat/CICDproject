@@ -9,9 +9,9 @@ jobs:
       - name: "Store output in runner"
         run: |
           mkdir -p app
-          sudo echo "This is test" >> app/test.txt
+          echo "This is test" >> app/test.txt
       - name: "Upload test.txt"
         uses: actions/upload-artifact@v4
         with:
           name: test.txt
-          path: /app/test.txt
+          path: app/test.txt
